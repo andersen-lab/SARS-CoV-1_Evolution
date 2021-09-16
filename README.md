@@ -1,5 +1,5 @@
 #### Summary
-On this page we are linking to various material that have to do with our investigations of the origin and evolution of SARS-CoV-1, the virus that caused a 2002-2003 SARS epidemic.
+In this repo we are linking to various material that have to do with our investigations of the origin and evolution of SARS-CoV-1, the virus that caused the 2002-2003 SARS epidemic.
 
 #### Data
 SARS-CoV-1 sequence data from humans, civets, raccoon dogs, and ferret badgers were downloaded from NCBI. Metadata (metadata.csv) was scraped from primary publications and cross-checked when possible. Certain sequences (exclude.csv) were removed due to poor quality, duplicates, and because they had unknown sources (e.g., extensive tissue culture passage, lab constructs, etc). Final sequences were quality checked and indels correct as necessary (fix.csv).
