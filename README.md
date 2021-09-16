@@ -4,7 +4,7 @@ In this repo we are linking to various material that have to do with our investi
 #### Data
 SARS-CoV-1 sequence data from humans, civets, raccoon dogs, and ferret badgers were downloaded from NCBI. Metadata (metadata.csv) was scraped from primary publications and cross-checked when possible. Certain sequences (exclude.csv) were removed due to poor quality, duplicates, and because they had unknown sources (e.g., extensive tissue culture passage, lab constructs, etc). Final sequences were quality checked and indels correct as necessary (fix.csv).
 
-Alignments were created using MAFFT and trees were built using RAxML (no bootstraps).
+Alignments were created using MAFFT, found free of recombination using GARD, and trees were built using RAxML (no bootstraps)
 
 ---
 **Andersen Lab**  
