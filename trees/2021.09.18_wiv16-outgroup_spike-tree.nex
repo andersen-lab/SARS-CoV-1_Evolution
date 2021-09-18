@@ -1,0 +1,243 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=141;
+	taxlabels
+	'AP006557|TWH|Human|Taiwan|2003'
+	'AP006558|TWJ|Human|Taiwan|2003'
+	'AP006559|TWK|Human|Taiwan|2003'
+	'AP006560|TWS|Human|Taiwan|2003'
+	'AP006561|TWY|Human|Taiwan|2003'
+	'AY274119|Tor2|Human|Canada|2003_03'
+	'AY278487|BJ02|Human|China_Beijing|2003_03'
+	'AY278488|BJ01|Human|China_Beijing|2003_03'
+	'AY278489|GD01|Human|China_Guangdong|2003_02'
+	'AY278490|BJ03|Human|China_Beijing|2003_03'
+	'AY278491|HKU_39849|Human|Hong_Kong|2003_03'
+	'AY278554|CUHK_W1|Human|China_Guangdong_Shenzhen|2003_03_15'
+	'AY278741|Urbani|Human|Vietnam_Hanoi|2003_03'
+	'AY279354|BJ04|Human|China_Beijing|2003_03'
+	'AY282752|CUHK_Su10|Human|Hong_Kong|2003_03_05'
+	'AY283794|Sin2500_index|Human|Singapore|2003_02_25'
+	'AY283795|Sin2677_contact1|Human|Singapore|2003_03_09'
+	'AY283796|Sin2679_contact2|Human|Singapore|2003_03_15'
+	'AY283797|Sin2748_contact1|Human|Singapore|2003_03_14'
+	'AY283798|Sin2774_contact1|Human|Singapore|2003_03_09'
+	'AY291451|TW1|Human|Taiwan|2003_03'
+	'AY304486|SZ3|Civet|China_Shenzhen_Dongmen-Market|2003_05_07'[&!color=#ff8000]
+	'AY304487|SZ13|Raccoon_Dog|China_Shenzhen_Dongmen-Market|2003'[&!color=#00ff00]
+	'AY304488|SZ16|Civet|China_Shenzhen_Dongmen-Market|2003_05_07'[&!color=#ff8000]
+	'AY304489|SZ1|Civet|China_Shenzhen_Dongmen-Market|2003_05_07'[&!color=#ff8000]
+	'AY304490|GZ43|Human|Hong_Kong|2003'
+	'AY304491|GZ60|Human|Hong_Kong|2003_02'
+	'AY304492|HKU-36871|Human|Hong_Kong|2003_03'
+	'AY304493|HKU-65806|Human|Hong_Kong|2003_03'
+	'AY304494|HKU-66078|Human|Hong_Kong|2003'
+	'AY304495|GZ50|Human|Hong_Kong|2003_03'
+	'AY310120|FRA|Human|Germany_Frankfurt|2003_03'
+	'AY313906|GD69|Human|China_Guangdong|2003'
+	'AY321118|TWC|Human|Taiwan|2003_03'
+	'AY323977|HSR1|Human|Italy|2003_05'
+	'AY338174|TaiwanTC1|Human|Taiwan|2003'
+	'AY338175|TaiwanTC2|Human|Taiwan|2003'
+	'AY345986|CUHK_AG01|Human|Hong_Kong|2003_03_15'
+	'AY345987|CUHK-AG02|Human|Hong_Kong|2003_03'
+	'AY345988|CUHK_AG03|Human|Hong_Kong|2003_03'
+	'AY348314|TaiwanTC3|Human|Taiwan|2003'
+	'AY350750|PUMC01|Human|China|2003'
+	'AY357075|PUMC02|Human|China|2003'
+	'AY357076|PUMC03|Human|China|2003'
+	'AY390556|GZ02|Human|China_Guangdong_Guangzhou|2003_02_11'
+	'AY394978|GZ-B|Human|China_Guangdong_Guangzhou|2003_03'
+	'AY394979|GZ-C|Human|China_Guangdong_Guangzhou|2003_03'
+	'AY394981|HGZ8L1-A|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY394982|HGZ8L1-B|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY394983|HZS2-A|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY394985|HSZ-Bb|Human|China_Guangdong_Guangzhou|2003_01'
+	'AY394986|HSZ-Cb|Human|China_Guangdong_Guangzhou|2003_01'
+	'AY394988|JMD|Human|China|2003_01'
+	'AY394989|HZS2-D|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY394990|HZS2-E|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY394991|HZS2_Fc|Human|China_Guangdong_Guangzhou|2003_02_07'
+	'AY394992|HZS2-C|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY394993|HGZ8L2|Human|China_Guangdong_Guangzhou|2003_01'
+	'AY394994|HSZ-Bc|Human|China_Guangdong_Guangzhou|2003_01'
+	'AY394995|HSZ_Cc|Human|China_Guangdong_Guangzhou|2003_01'
+	'AY394996|ZS-B|Human|China_Guangdong_Zhongshan|2003_01'
+	'AY394997|ZS-A|Human|China_Guangdong_Zhongshan|2003_01'
+	'AY394998|CUHK-LC1|Human|Hong_Kong|2003_03'
+	'AY394999|CUHK-LC2|Human|Hong_Kong|2003_05'
+	'AY395002|CUHK-LC5|Human|Hong_Kong|2003_05'
+	'AY395003|ZS_C|Human|China_Guangdong_Zhongshan|2003_01'
+	'AY395004|HZS2-Bb|Human|China_Guangdong_Guangzhou|2003_02'
+	'AY427439|AS|Human|Italy|2003_03'
+	'AY461660|SoD|Human|Russia|2003'
+	'AY463059|ShanghaiQXC1|Human|China_Shanghai|2003'
+	'AY502923|TW10|Human|Taiwan|2003'
+	'AY502924|TW11|Human|Taiwan|2003'
+	'AY502925|TW2|Human|Taiwan|2003'
+	'AY502926|TW3|Human|Taiwan|2003'
+	'AY502927|TW4|Human|Taiwan|2003'
+	'AY502928|TW5|Human|Taiwan|2003'
+	'AY502929|TW6|Human|Taiwan|2003'
+	'AY502930|TW7|Human|Taiwan|2003'
+	'AY502931|TW8|Human|Taiwan|2003'
+	'AY502932|TW9|Human|Taiwan|2003'
+	'AY508724|NS-1|Human|China|2003'
+	'AY525636|GD03T0013|Human|China_Guangdong_Guangzhou|2003_12_22'
+	'AY545914|HC/SZ/79/03|Civet_Shenzhen|China_Shenzhen|2003'[&!color=#ff8000]
+	'AY545915|HC/SZ/DM1/03|Civet|China_Shenzhen|2003'[&!color=#ff8000]
+	'AY545916|HC/SZ/266/03|Civet|China_Shenzhen|2003'[&!color=#ff8000]
+	'AY545917|HC/GZ/81/03|Civet|China|2003'[&!color=#ff8000]
+	'AY545918|HC/GZ/32/03|Civet|China|2003'[&!color=#ff8000]
+	'AY545919|CFB/SZ/94/03|Ferret_Badger|China_Shenzhen|2003'[&!color=#00ffff]
+	'AY559081|Sin842|Human|Singapore|2003_04_02'
+	'AY559082|Sin852|Human|Singapore|2003_04_11'
+	'AY559085|Sin848|Human|Singapore|2003_04_05'
+	'AY559086|Sin849|Human|Singapore|2003_04_12'
+	'AY559093|Sin845|Human|Singapore|2003_04_07'
+	'AY559094|Sin846|Human|Singapore|2003_03_25'
+	'AY559095|Sin847|Human|Singapore|2003'
+	'AY559096|Sin850|Human|Singapore|2003_04_14'
+	'AY568539|GZ0401|Human|China_Guangdong_Guangzhou|2003_12_22'
+	'AY572034|civet007|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02'[&!color=#ff8000]
+	'AY572035|civet010|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02'[&!color=#ff8000]
+	'AY572036|civet014|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02'[&!color=#ff8000]
+	'AY572037|civet019|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02'[&!color=#ff8000]
+	'AY572038|civet020|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02'[&!color=#ff8000]
+	'AY613947|GZ0402|Human|China_Guangdong_Guangzhou|2004_01_05'
+	'AY613948|PC4_13|Civet|China|2004_01_10'[&!color=#ff8000]
+	'AY613949|PC4_136|Civet|China|2004_01_05'[&!color=#ff8000]
+	'AY613950|PC4_227|Civet|China|2004_01_05'[&!color=#ff8000]
+	'AY613951|PC4-127|Civet|China|2004'[&!color=#ff8000]
+	'AY613952|PC4-205|Civet|China|2004'[&!color=#ff8000]
+	'AY627044|PC4-115|Civet|China|2004'[&!color=#ff8000]
+	'AY627045|PC4-137|Civet|China|2004'[&!color=#ff8000]
+	'AY627046|PC4-145|Civet|China|2004'[&!color=#ff8000]
+	'AY627047|PC4-199|Civet|China|2004'[&!color=#ff8000]
+	'AY627048|PC4-241|Civet|China|2004'[&!color=#ff8000]
+	'AY686863|A022|Civet|China_Guangdong_Guangzhou|2004_01'[&!color=#ff8000]
+	'AY686864|B039|Civet|China_Guangdong_Guangzhou|2004_01'[&!color=#ff8000]
+	'AY687354|A001|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687355|A013|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687356|A021|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687357|A030|Raccoon_Dog|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#00ff00]
+	'AY687358|A031|Raccoon_Dog|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#00ff00]
+	'AY687359|B012|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687360|B024|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687361|B029|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687362|B033|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687363|B039|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687364|B040|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687365|C013|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687366|C014|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687367|C017|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687368|C018|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687369|C019|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687370|C025|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687371|C028|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687372|C029|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY687373|A022|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01'[&!color=#ff8000]
+	'AY714217|CDC#200301157|Human|USA|2003'
+	'DQ182595|ZJ0301|Human|China|2003_04_21'
+	'DQ514528|ES188|Civet|China_Hubei|2003'[&!color=#ff0000]
+	'DQ514529|ES191|Civet|China_Hubei|2003'[&!color=#ff0000]
+	'DQ514530|ES260|Civet|China_Hubei|2003'[&!color=#ff0000]
+	'SARSr-CoV_Spike_KT444582|WIV16|Bat|China_Yunnan|2013_07_21'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((('AY283796|Sin2679_contact2|Human|Singapore|2003_03_15':1.0E-6,(((('AY559085|Sin848|Human|Singapore|2003_04_05':1.0E-6,'AY559093|Sin845|Human|Singapore|2003_04_07':5.44E-4):1.0E-6,('AY559086|Sin849|Human|Singapore|2003_04_12':1.0E-6,'AY559082|Sin852|Human|Singapore|2003_04_11':2.72E-4):1.0E-6):1.0E-6,('AY559094|Sin846|Human|Singapore|2003_03_25':1.0E-6,'AY559081|Sin842|Human|Singapore|2003_04_02':1.0E-6):1.0E-6):1.0E-6,('AY559095|Sin847|Human|Singapore|2003':1.0E-6,'AY559096|Sin850|Human|Singapore|2003_04_14':1.0E-6):1.0E-6):5.44E-4):2.72E-4,'AY394979|GZ-C|Human|China_Guangdong_Guangzhou|2003_03':8.17E-4):1.0E-6,((('AY350750|PUMC01|Human|China|2003':1.0E-6,'AY345988|CUHK_AG03|Human|Hong_Kong|2003_03':1.0E-6):1.0E-6,(('AY304493|HKU-65806|Human|Hong_Kong|2003_03':1.0E-6,('AY502929|TW6|Human|Taiwan|2003':1.0E-6,('AY502925|TW2|Human|Taiwan|2003':1.0E-6,'AY283798|Sin2774_contact1|Human|Singapore|2003_03_09':2.71E-4):1.0E-6):1.0E-6):1.0E-6,(('AY502931|TW8|Human|Taiwan|2003':1.0E-6,'AY394998|CUHK-LC1|Human|Hong_Kong|2003_03':1.0E-6):1.0E-6,'AY394978|GZ-B|Human|China_Guangdong_Guangzhou|2003_03':2.71E-4):1.0E-6):1.0E-6):1.0E-6,(((('AY310120|FRA|Human|Germany_Frankfurt|2003_03':1.0E-6,'AY461660|SoD|Human|Russia|2003':1.0E-6):2.72E-4,'AY278741|Urbani|Human|Vietnam_Hanoi|2003_03':2.71E-4):1.0E-6,((('AY279354|BJ04|Human|China_Beijing|2003_03':1.0E-6,'AY508724|NS-1|Human|China|2003':1.0E-6):5.44E-4,('AY394991|HZS2_Fc|Human|China_Guangdong_Guangzhou|2003_02_07':1.0E-6,('AY278490|BJ03|Human|China_Beijing|2003_03':8.16E-4,((('AY278487|BJ02|Human|China_Beijing|2003_03':5.48E-4,'AY394983|HZS2-A|Human|China_Guangdong_Guangzhou|2003_02':1.0E-6):2.71E-4,'AY394992|HZS2-C|Human|China_Guangdong_Guangzhou|2003_02':2.71E-4):1.0E-6,(('AY304492|HKU-36871|Human|Hong_Kong|2003_03':1.0E-6,(('AY394993|HGZ8L2|Human|China_Guangdong_Guangzhou|2003_01':1.0E-6,'AY394989|HZS2-D|Human|China_Guangdong_Guangzhou|2003_02':1.0E-6):1.0E-6,'AY395004|HZS2-Bb|Human|China_Guangdong_Guangzhou|2003_02':1.0E-6):1.0E-6):1.0E-6,(('AY394990|HZS2-E|Human|China_Guangdong_Guangzhou|2003_02':1.0E-6,(('AY394982|HGZ8L1-B|Human|China_Guangdong_Guangzhou|2003_02':1.0E-6,'AY278488|BJ01|Human|China_Beijing|2003_03':1.0E-6):1.0E-6,('AY304495|GZ50|Human|Hong_Kong|2003_03':2.71E-4,((('AY394994|HSZ-Bc|Human|China_Guangdong_Guangzhou|2003_01':1.0E-6,'AY394985|HSZ-Bb|Human|China_Guangdong_Guangzhou|2003_01':1.0E-6):1.0E-6,('AY394995|HSZ_Cc|Human|China_Guangdong_Guangzhou|2003_01':1.0E-6,'AY394986|HSZ-Cb|Human|China_Guangdong_Guangzhou|2003_01':1.0E-6):2.73E-4):2.71E-4,(('AY394988|JMD|Human|China|2003_01':1.0E-6,(((('SARSr-CoV_Spike_KT444582|WIV16|Bat|China_Yunnan|2013_07_21':0.054672,('AY304490|GZ43|Human|Hong_Kong|2003':1.0E-6,'AY304491|GZ60|Human|Hong_Kong|2003_02':1.0E-6):2.36E-4):3.07E-4,'AY394981|HGZ8L1-A|Human|China_Guangdong_Guangzhou|2003_02':2.71E-4):1.0E-6,(('AY394996|ZS-B|Human|China_Guangdong_Zhongshan|2003_01':1.0E-6,'AY394997|ZS-A|Human|China_Guangdong_Zhongshan|2003_01':1.0E-6):1.0E-6,'AY395003|ZS_C|Human|China_Guangdong_Zhongshan|2003_01':1.0E-6):1.0E-6):1.0E-6,('AY390556|GZ02|Human|China_Guangdong_Guangzhou|2003_02_11':2.73E-4,'AY278489|GD01|Human|China_Guangdong|2003_02':5.48E-4):5.44E-4):5.43E-4):5.45E-4,((('DQ514529|ES191|Civet|China_Hubei|2003':0.001136,'DQ514528|ES188|Civet|China_Hubei|2003':0.001611):6.96E-4,'DQ514530|ES260|Civet|China_Hubei|2003':9.63E-4):7.81E-4,(('AY613947|GZ0402|Human|China_Guangdong_Guangzhou|2004_01_05':0.001365,('AY687356|A021|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4,(('AY687360|B024|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':8.16E-4,'AY545915|HC/SZ/DM1/03|Civet|China_Shenzhen|2003':1.0E-6):1.0E-6,((('AY627048|PC4-241|Civet|China|2004':2.71E-4,((('AY613950|PC4_227|Civet|China|2004_01_05':1.0E-6,'AY545917|HC/GZ/81/03|Civet|China|2003':1.0E-6):1.0E-6,'AY627046|PC4-145|Civet|China|2004':1.0E-6):1.0E-6,('AY687359|B012|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':5.44E-4,((((('AY687368|C018|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':5.43E-4,(((('AY686864|B039|Civet|China_Guangdong_Guangzhou|2004_01':1.0E-6,'AY572038|civet020|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02':1.0E-6):1.0E-6,'AY613949|PC4_136|Civet|China|2004_01_05':2.71E-4):1.0E-6,('AY687371|C028|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':5.43E-4,'AY687366|C014|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6):1.0E-6):1.0E-6,(('AY627047|PC4-199|Civet|China|2004':2.71E-4,((('AY545918|HC/GZ/32/03|Civet|China|2003':1.0E-6,'AY687355|A013|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4):1.0E-6,((('AY687365|C013|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4,(('AY572036|civet014|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02':2.71E-4,'AY687372|C029|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4):1.0E-6,'AY687354|A001|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6):1.0E-6):1.0E-6,(((('AY572035|civet010|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02':1.0E-6,'AY687361|B029|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6):1.0E-6,'AY687370|C025|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':5.48E-4):2.71E-4,(((('AY687373|A022|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6,'AY687357|A030|Raccoon_Dog|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6):1.0E-6,'AY687358|A031|Raccoon_Dog|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6):1.0E-6,'AY686863|A022|Civet|China_Guangdong_Guangzhou|2004_01':1.0E-6):2.71E-4,'AY572034|civet007|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02':1.0E-6):1.0E-6):5.43E-4,('AY545914|HC/SZ/79/03|Civet_Shenzhen|China_Shenzhen|2003':1.0E-6,'AY572037|civet019|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01_02':1.0E-6):1.0E-6):5.43E-4):2.71E-4,'AY687363|B039|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4):1.0E-6):1.0E-6,('AY687367|C017|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6,'AY613948|PC4_13|Civet|China|2004_01_10':5.43E-4):1.0E-6):1.0E-6):1.0E-6,'AY613952|PC4-205|Civet|China|2004':2.71E-4):1.0E-6):1.0E-6):1.0E-6,'AY687364|B040|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':1.0E-6):1.0E-6,('AY687362|B033|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4,('AY687369|C019|Civet|China_Guangdong_Guangzhou_Xinyuan-market|2004_01':2.71E-4,'AY545919|CFB/SZ/94/03|Ferret_Badger|China_Shenzhen|2003':8.15E-4):1.0E-6):1.0E-6):2.71E-4,'AY613951|PC4-127|Civet|China|2004':1.0E-6):2.71E-4,'AY627045|PC4-137|Civet|China|2004':5.43E-4):2.72E-4):1.0E-6):1.0E-6):2.71E-4,('AY545916|HC/SZ/266/03|Civet|China_Shenzhen|2003':1.0E-6,'AY627044|PC4-115|Civet|China|2004':1.0E-6):1.0E-6):1.0E-6,('AY568539|GZ0401|Human|China_Guangdong_Guangzhou|2003_12_22':2.73E-4,'AY525636|GD03T0013|Human|China_Guangdong_Guangzhou|2003_12_22':1.0E-6):2.71E-4):5.42E-4):2.72E-4):8.18E-4):0.001381,('AY304486|SZ3|Civet|China_Shenzhen_Dongmen-Market|2003_05_07':2.71E-4,(('AY304487|SZ13|Raccoon_Dog|China_Shenzhen_Dongmen-Market|2003':1.0E-6,'AY304488|SZ16|Civet|China_Shenzhen_Dongmen-Market|2003_05_07':1.0E-6):1.0E-6,'AY304489|SZ1|Civet|China_Shenzhen_Dongmen-Market|2003_05_07':0.001099):8.27E-4):0.003201):9.25E-4):9.9E-4):5.43E-4):1.0E-6):2.71E-4):1.0E-6):1.0E-6,'AY278554|CUHK_W1|Human|China_Guangdong_Shenzhen|2003_03_15':1.0E-6):1.0E-6):1.0E-6):1.0E-6):2.71E-4):1.0E-6):2.71E-4,'DQ182595|ZJ0301|Human|China|2003_04_21':2.72E-4):1.0E-6):1.0E-6,((('AY502926|TW3|Human|Taiwan|2003':1.0E-6,('AY283794|Sin2500_index|Human|Singapore|2003_02_25':1.0E-6,'AY357075|PUMC02|Human|China|2003':1.0E-6):1.0E-6):1.0E-6,(((('AY502924|TW11|Human|Taiwan|2003':1.0E-6,(((((('AY348314|TaiwanTC3|Human|Taiwan|2003':1.0E-6,'AP006559|TWK|Human|Taiwan|2003':1.0E-6):1.0E-6,((('AY502932|TW9|Human|Taiwan|2003':1.0E-6,'AP006558|TWJ|Human|Taiwan|2003':1.0E-6):1.0E-6,'AY283797|Sin2748_contact1|Human|Singapore|2003_03_14':1.0E-6):1.0E-6,(('AY502928|TW5|Human|Taiwan|2003':1.0E-6,'AY502923|TW10|Human|Taiwan|2003':1.0E-6):1.0E-6,(('AY502930|TW7|Human|Taiwan|2003':1.0E-6,'AY338174|TaiwanTC1|Human|Taiwan|2003':1.0E-6):1.0E-6,'AY357076|PUMC03|Human|China|2003':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'AP006561|TWY|Human|Taiwan|2003':1.0E-6):1.0E-6,'AY278491|HKU_39849|Human|Hong_Kong|2003_03':1.0E-6):1.0E-6,'AY313906|GD69|Human|China_Guangdong|2003':2.71E-4):1.0E-6,('AY345987|CUHK-AG02|Human|Hong_Kong|2003_03':1.0E-6,'AY345986|CUHK_AG01|Human|Hong_Kong|2003_03_15':1.0E-6):1.0E-6):1.0E-6):1.0E-6,'AY304494|HKU-66078|Human|Hong_Kong|2003':1.0E-6):1.0E-6,'AY282752|CUHK_Su10|Human|Hong_Kong|2003_03_05':1.0E-6):1.0E-6,(((('AY463059|ShanghaiQXC1|Human|China_Shanghai|2003':8.16E-4,'AY274119|Tor2|Human|Canada|2003_03':1.0E-6):2.72E-4,'AP006560|TWS|Human|Taiwan|2003':2.72E-4):1.0E-6,((('AY502927|TW4|Human|Taiwan|2003':1.0E-6,('AY321118|TWC|Human|Taiwan|2003_03':1.0E-6,'AY427439|AS|Human|Italy|2003_03':1.0E-6):1.0E-6):1.0E-6,'AY291451|TW1|Human|Taiwan|2003_03':1.0E-6):1.0E-6,'AY283795|Sin2677_contact1|Human|Singapore|2003_03_09':1.0E-6):1.0E-6):1.0E-6,(('AY394999|CUHK-LC2|Human|Hong_Kong|2003_05':1.0E-6,'AY395002|CUHK-LC5|Human|Hong_Kong|2003_05':1.0E-6):5.44E-4,'AY714217|CDC#200301157|Human|USA|2003':2.71E-4):1.0E-6):1.0E-6):1.0E-6):1.0E-6,('AY338175|TaiwanTC2|Human|Taiwan|2003':1.0E-6,'AY323977|HSR1|Human|Italy|2003_05':1.0E-6):1.0E-6):1.0E-6):1.0E-6):1.0E-6,'AP006557|TWH|Human|Taiwan|2003':1.0E-6);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=287;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
