@@ -6,9 +6,6 @@ SARS-CoV-1 sequence data from humans, civets, raccoon dogs, and ferret badgers w
 
 Alignments were created using MAFFT, found free of recombination using GARD, and trees were built using RAxML (no bootstraps)
 
-#### Confirmed sampling dates from Hubei/Hunan farms
-May 2003 (Hubei); January 2004 (Changsha, Hunan); April 2004 (Enshi, Hubei); September 2004 (Wufeng, Hubei)
-
 ---
 **Andersen Lab**  
 The Scripps Research Institute  
